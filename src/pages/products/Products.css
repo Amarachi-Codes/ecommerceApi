@@ -1,0 +1,17 @@
+.productsContainer{
+    /* display: grid;
+    grid-template-rows: repeat(4, 1fr); */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.productID{
+    border: 1px solid #000;
+    padding: 16px;
+    border-radius: 8px;
+}
+.productImg{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
